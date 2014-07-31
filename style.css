@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	width: 100%;
+	font-size: 14px;
+}
+
+ul.faq {
+	list-style: none;
+	width: 500px;
+	margin: auto;
+}
+
+ul.faq li {
+	display: block;
+}
+
+ul.faq li h2 {
+	border-top: 1px dotted #888;
+	border-bottom: 1px dotted #888;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+ul.faq li p {
+	margin-left: 10px;
+	margin-bottom: 25px;
+	padding: 10px;
+	/*display: none;*/
+}
+
+ul.faq li.collasped {
+
+}
+
+ul.faq li.collasped p {
+	display: none;
+}
+
+ul.faq li.expanded {
+
+}
+
+ul.faq li.expanded p {
+	display: block;
+}
