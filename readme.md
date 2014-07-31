@@ -2,20 +2,26 @@
 
 Just made this while practicing JS. It may not be perfect. And also don't talk with me about IE support.
 
-My design look like shit, so if you're interested to extend the design, send me a pull request.
+My design sucks, so if you're interested to contribute a default design, send me a pull request.
 
 
-##How to.
+##How to
 Using it very simple.
-Just include the JS file into the footer (before closing body tag) of your website. Also load the css file whereever you like.
+Just include the JS file (faq.js) into the footer (before closing body tag) of your website. Also load the css file whereever you like. And initialize the library:
+```
+<script src="faq.js"></script>
+<script>
+	faq.init('.faq li');
+</script>
+```
 
-Now create links with `title` attribute and you're done. This script will take care of the rest.
+Now create faq list in `ul.faq>li*5>h2+p` format and you're done. The script will take care of the rest.
 
-Checkout the included html file for example.
+Checkout the included index.html file for example.
 
 
 ###Contact
-You can contact with me via my website: http://www.baba.im.
+You can contact with me via my website: http://www.babar.im.
 You can visit my blog as well: http://www.babar.im/blog/
 
 
